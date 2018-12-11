@@ -1,6 +1,6 @@
 # libvirtdbackups
 
-Script to create a libvirtd disk+xml backup
+Bash Script to create a libvirtd disk+xml backup
 
 ## Usage
   
@@ -35,5 +35,9 @@ tar: Removing leading `/' from member names
 
 ## Requirements
   
-- xpath (apt install libxml-xpath-perl)
-
+- xpath (libxml-xpath-perl)
+- tar
+- xz (new version supporting threads)
+- virsh
+- libvirtd
+- Access and permissions to read disks
