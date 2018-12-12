@@ -1,4 +1,4 @@
-# libvirtdbackups
+# virtbackup.sh
 
 Bash Script to create a libvirtd disk+xml backup
 
